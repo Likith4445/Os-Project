@@ -59,4 +59,9 @@ int main()
     avg_t=(float)total/n;     //average turnaround time
     printf("\n\nAverage Waiting Time=%f",avg_wt);
     printf("\nAverage Turnaround Time=%f\n",avg_t);
+    printf("\n\n\nThe order of the billed students is as follows :");
+    for(i=0;i<n;i++)
+    {
+    	printf("\np%d",p[i]);
+	}
 }
